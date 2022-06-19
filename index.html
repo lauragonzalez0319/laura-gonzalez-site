@@ -2,10 +2,42 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="style.css" />
-    <title>My Personal Website</title>
+    <title>Laura Gonzalez</title>
   </head>
   <body>
-    <h1>Hello, World!</h1>
+    <nav class="navbar">
+      <ul class="link-group">
+        <li class="link active"><a href="#">Greetings</a></li>
+        <li class="link"><a href="#">Where I'm From</a></li>
+        <li class="link"><a href="#">Where I'm Headed</a></li>
+        <li class="link"><a href="#">Find me on my Journey</a></li>
+      </ul>
+    </nav>
+    <section class="home-section active">
+      <h1 class="hero-heading">Hi, my name is Laura Gonzalez <br> 
+      and I'm on a journey to become a software engineer.</h1>
+      <img src="./Headshot.jpeg" class="home-img" alt="Laura Gonzalez headshot">
+    </section> 
+    <section class="from-section active"> 
+      <section class="about-me">
+        <div class="about-img-container">
+          <img src="./cornell.jpeg" class="about-img" alt="cornell university campus">
+        </div>
+        <h2 class="about-info">About me</h2> 
+        <p class="about-info">I was born in Cuba and raised in Miami. I pursued an undergraduate degree in 
+          Operations Research and Information Engineering at Cornell University. With 1-2 semester left,
+          I made the decision to leave Cornell and start a career in software engineering.</p> 
+          <ul class="about-info"> 
+            <h1>A few things I did in my time there:</h1> 
+            <li>Gain leadership experience in different E-board roles for Society of Hispanic Professional Engineers</li> 
+            <li>Conduct research where I designed and built a mobile phone signal jammer with variable capacitance to optimize attenuation through MATLAB implemented mathematical model</li>
+          </ul> 
+        <p class="about-info">My time at Cornell 
+          gave me a solid background in engineering fundamentals as well as programming experience. I plan to take this with me
+          on my journey.</p> 
+        <button class="download-btn" onclick="window.location.href = 'https://docs.google.com/presentation/d/1JkItRbT6pyUnuimKgaNZll7KVDjvwfnt/edit?usp=sharing&ouid=118427535018654810269&rtpof=true&sd=true';">Download Research Project</button>
+      </section>
+    </section>
     <script src="script.js"></script>
   </body>
 </html>
